@@ -1,6 +1,6 @@
 {
-  "name": "template",
   "homepage":"http://kenny15335.github.io/template.git",
+  "name": "template",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
