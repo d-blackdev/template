@@ -1,0 +1,33 @@
+.user{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 80px 40px;
+    background:  #1c2237;
+}
+.user-content{
+    display: flex;
+    justify-content: space-between;
+    max-width: 90%;
+    max-height: 70%;
+    background: blanchedalmond;
+    padding: 20px 40px;
+}
+.img-cont{
+    width: 500px;
+    height: 400px;
+}
+.img{
+    width: 500px;
+    height: 400px;
+}
+.side2{
+
+  
+  width: 50%;
+  height: 80%;
+}
+/* .side1{
+    padding-top: 100px;
+} */
+

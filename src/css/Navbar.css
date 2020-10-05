@@ -24,6 +24,7 @@
     margin-left: auto;
     padding-right: 50px;
     padding-left: 50px;
+  
   }
   
   .navbar-logo {
@@ -56,6 +57,9 @@
   
   .nav-item:hover {
     border-bottom: 2px solid #f00946;
+  }
+  .nav-btn{
+    display:flex
   }
   
   .nav-links {

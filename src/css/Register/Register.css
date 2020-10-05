@@ -1,0 +1,84 @@
+.register{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.single-input{
+    width: 400px;
+    /* height: 80px; */
+    position: relative;
+    margin-bottom: 40px;
+}
+.sec{
+    margin-bottom: 20px;
+}
+.single-input .label{
+position: absolute;
+top: 10px;
+left: 5px;
+pointer-events: none;
+transition: .5s;
+color: rgb(177, 177, 177);
+
+}
+.input{
+    border: none !important;
+    border-bottom: 1px solid white !important;
+    background: transparent !important;
+    width: 100%;
+   padding: 10px 0;
+   /* margin-bottom: 30px; */
+    outline: none;
+    box-sizing: border-box;
+    display: inline-block;
+    transition: all .3s ease-in-out;
+}
+.input:focus ~ .label,
+.input:valid ~ .label
+{
+  top: -12px;
+  left: 0;
+  transform: scale(.8);
+  color: rgb(236, 33, 33);
+    
+}
+.input:focus,
+.input:valid
+{
+    border-bottom:  2px solid rgb(236, 33, 33) !important;
+}
+
+
+.icon{
+    color: rgb(179, 179, 179);
+    font-size: 5rem;
+}
+.icon-cont h5{
+    color:rgb(179, 179, 179);
+    font-size: 1.5rem;
+    margin: 20px 0px 40px 0px;
+}
+.opt-cont{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+
+    color: rgb(250, 250, 250);
+}
+.opt-cont h6{
+    font-size: .7rem;
+}
+.opt-cont span a{
+    color: rgb(241, 144, 144);
+    text-decoration: none;
+    font-size: .8rem;
+}
+.buttn{
+    margin: 0px auto !important;
+}
+.error{
+    color: red;
+    font-size: .7rem;
+    margin-top: 10px;
+}

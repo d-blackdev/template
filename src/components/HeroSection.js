@@ -41,7 +41,7 @@ function HeroSection({
               >
                 {description}
               </p>
-              <NavLink to="/sign-up">
+              <NavLink to ="/user/login">
                 <Button buttonSize="btn--wide" buttonColor="blue">
                   {buttonLabel}
                 </Button>
